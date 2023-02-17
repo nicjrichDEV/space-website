@@ -1,12 +1,11 @@
 body {
-    background-image: url("images/earth.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    color: #82a5ca;
 }
 
 h1 {
-    color: #ffffff;
+    color: #82a5ca;
     font-weight: 800;
 }
 
@@ -14,6 +13,12 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url("images/galaxy.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding: 10px 0 40px 0;
+    text-shadow: 2px 2px 2px white;
 }
 
 .btn {
@@ -24,4 +29,17 @@ h1 {
     font-size: 16px;
     font-weight: 800;
     padding: 6px 12px;
+    color: #82a5ca;
+}
+
+.underline {
+    border-bottom: 4px solid #82a5ca;
+}
+
+#main-logo {
+    width: 100px;
+}
+
+.tos {
+    text-align: center;
 }
